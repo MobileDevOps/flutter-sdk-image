@@ -6,12 +6,13 @@ Currently:
 
 | Version  | Ref | Release Date |
 |---|---|---|
-| v1.7.8+hotfix.4 | 20e5931 | 24.7.2019 |
+| v1.9.1+hotfix.2 | 2d2a1ff | 10.9.2019 |
 
 ## Releases
 
 | Tag | Flutter Version | Flutter Channel |
 |---|---|---|
+| v1.9.1-hotfix.2 | v1.9.1+hotfix.2 | stable |
 | v1.7.8-hotfix.4 | v1.7.8+hotfix.4 | stable |
 
 ## Usage
