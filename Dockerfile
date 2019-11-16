@@ -1,6 +1,6 @@
 FROM mobiledevops/android-sdk-image:29.0.2
 
-ENV FLUTTER_VERSION="v1.9.1+hotfix.4"
+ENV FLUTTER_VERSION="v1.9.1+hotfix.5"
 ENV FLUTTER_HOME "/home/mobiledevops/.flutter-sdk"
 ENV PATH $PATH:$FLUTTER_HOME/bin
 

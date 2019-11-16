@@ -6,13 +6,14 @@ Currently:
 
 | Version  | Ref | Release Date |
 |---|---|---|
-| v1.9.1+hotfix.4 | cc949a8 | 01.10.2019 |
+| v1.9.1+hotfix.5 | cc949a8 | 17.10.2019 |
 
 ## Releases
 
 | Tag | Flutter Version | Flutter Channel |
 |---|---|---|
-| v1.9.1-hotfix.4 | v1.9.1-hotfix.4 | stable |
+| v1.9.1-hotfix.5 | v1.9.1+hotfix.5 | stable |
+| v1.9.1-hotfix.4 | v1.9.1+hotfix.4 | stable |
 | v1.9.1-hotfix.2 | v1.9.1+hotfix.2 | stable |
 | v1.7.8-hotfix.4 | v1.7.8+hotfix.4 | stable |
 
@@ -34,7 +35,7 @@ version: 2.1
 jobs:
   build:
     docker: 
-      - image: mobiledevops/flutter-sdk-image:v1.7.8-hotfix.4
+      - image: mobiledevops/flutter-sdk-image:v1.7.8-hotfix.5
     steps:
       - checkout
       - run:
@@ -61,7 +62,7 @@ services:
   - docker
 
 env:
-  - DOCKER_IMAGE=mobiledevops/flutter-sdk-image:v1.7.8-hotfix.4
+  - DOCKER_IMAGE=mobiledevops/flutter-sdk-image:v1.7.8-hotfix.5
 
 before_install:
   - docker pull $DOCKER_IMAGE
@@ -83,7 +84,7 @@ Example:
 
 ```
 # .gitlab-ci.yml
-image: mobiledevops/flutter-sdk-image:v1.7.8-hotfix.4
+image: mobiledevops/flutter-sdk-image:v1.7.8-hotfix.5
 
 stages:
     - build
