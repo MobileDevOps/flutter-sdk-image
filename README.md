@@ -12,6 +12,7 @@ Currently:
 
 | Tag | Flutter Version | Flutter Channel |
 |---|---|---|
+| v1.12.13-hotfix.7 | v1.12.13+hotfix.7 | 11.12.2019 |
 | v1.12.13-hotfix.5 | v1.12.13+hotfix.5 | stable |
 | v1.9.1-hotfix.6 | v1.9.1+hotfix.6 | stable |
 | v1.9.1-hotfix.5 | v1.9.1+hotfix.5 | stable |
