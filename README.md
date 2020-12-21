@@ -6,12 +6,13 @@ Currently:
 
 | Version  | Ref | Release Date |
 |---|---|---|
-| 1.17.3 | b041144 | 04.06.2020 |
+| 1.17.4 | 1ad9baa | 18.06.2020 |
 
 ## Releases
 
 | Tag | Flutter Version | Flutter Channel |
 |---|---|---|
+| 1.17.4 | 1.17.4 | stable |
 | 1.17.3 | 1.17.3 | stable |
 | 1.17.2 | 1.17.2 | stable |
 | 1.17.1 | 1.17.1 | stable |
