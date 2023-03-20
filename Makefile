@@ -3,7 +3,6 @@ IMAGE := mobiledevops/flutter-sdk-image
 
 release: \
 	tag_image \
-	dockerhub_login \
 	dockerhub_push
 
 tag_image: build
