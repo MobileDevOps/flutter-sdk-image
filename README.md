@@ -6,12 +6,17 @@ Currently:
 
 | Version  | Ref | Release Date |
 |---|---|---|
-| 2.0.1 | c5a4b40 | 04.03.2021 |
+| 3.7.7 | 2ad6cd7 | 04.03.2021 |
 
 ## Releases
 
 | Tag | Flutter Version | Flutter Channel |
 |---|---|---|
+| 3.7.7 | 3.7.7 | stable |
+
+<details>
+<summary>Older Releases</summary>
+| Tag | Flutter Version | Flutter Channel |
 | 2.0.1 | 2.0.1 | stable |
 | 1.22.5 | 1.22.5 | stable |
 | 1.22.4 | 1.22.4 | stable |
@@ -39,6 +44,7 @@ Currently:
 | v1.9.1-hotfix.4 | v1.9.1+hotfix.4 | stable |
 | v1.9.1-hotfix.2 | v1.9.1+hotfix.2 | stable |
 | v1.7.8-hotfix.4 | v1.7.8+hotfix.4 | stable |
+</details>
 
 ## Usage
 
