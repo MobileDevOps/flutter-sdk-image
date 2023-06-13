@@ -6,12 +6,13 @@ Currently:
 
 | Version  | Ref | Release Date |
 |---|---|---|
-| 3.10.2 | 9cd3d0d | 24.05.2021 |
+| 3.10.3 | f92f441 | 02.06.2021 |
 
 ## Releases
 
 | Tag | Flutter Version | Flutter Channel |
 |---|---|---|
+| 3.10.3 | 3.10.3 | stable |
 | 3.10.2 | 3.10.2 | stable |
 | 3.10.1 | 3.10.1 | stable |
 | 3.10.0 | 3.10.0 | stable |
@@ -67,7 +68,7 @@ version: 2.1
 jobs:
   build:
     docker: 
-      - image: mobiledevops/flutter-sdk-image:3.10.2
+      - image: mobiledevops/flutter-sdk-image:3.10.3
     steps:
       - checkout
       - run:
@@ -94,7 +95,7 @@ services:
   - docker
 
 env:
-  - DOCKER_IMAGE=mobiledevops/flutter-sdk-image:3.10.2
+  - DOCKER_IMAGE=mobiledevops/flutter-sdk-image:3.10.3
 
 before_install:
   - docker pull $DOCKER_IMAGE
@@ -116,7 +117,7 @@ Example:
 
 ```
 # .gitlab-ci.yml
-image: mobiledevops/flutter-sdk-image:3.10.2
+image: mobiledevops/flutter-sdk-image:3.10.3
 
 stages:
     - build
