@@ -6,7 +6,7 @@ Currently:
 
 | Version  | Ref | Release Date |
 |---|---|---|
-| 3.10.3 | f92f441 | 02.06.2021 |
+| 3.13.6 | ead4559 | 27.09.2023 |
 
 ## Releases
 
