@@ -6,12 +6,13 @@ Currently:
 
 | Version  | Ref | Release Date |
 |---|---|---|
-| 3.19.4 | 68bfaea | 21.03.2023 |
+| 3.29.3 | ea121f8 | 14.04.2023 |
 
 ## Releases
 
 | Tag | Flutter Version | Flutter Channel |
 |---|---|---|
+| 3.29.3 | 3.29.3 | stable |
 | 3.19.4 | 3.19.4 | stable |
 | 3.16.4 | 3.16.4 | stable|
 | 3.16.3 | 3.16.3 | stable|
