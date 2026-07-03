@@ -6,12 +6,13 @@ Currently:
 
 | Version  | Ref | Release Date |
 |---|---|---|
-| 3.19.4 | 68bfaea | 21.03.2023 |
+| 3.44.4 | ad70ec4 | 24.06.2026 |
 
 ## Releases
 
 | Tag | Flutter Version | Flutter Channel |
 |---|---|---|
+| 3.44.4 | 3.44.4 | stable |
 | 3.19.4 | 3.19.4 | stable |
 | 3.16.4 | 3.16.4 | stable|
 | 3.16.3 | 3.16.3 | stable|
@@ -71,7 +72,7 @@ version: 2.1
 jobs:
   build:
     docker: 
-      - image: mobiledevops/flutter-sdk-image:3.19.4
+      - image: mobiledevops/flutter-sdk-image:3.44.4
     steps:
       - checkout
       - run:
@@ -98,7 +99,7 @@ services:
   - docker
 
 env:
-  - DOCKER_IMAGE=mobiledevops/flutter-sdk-image:3.19.4
+  - DOCKER_IMAGE=mobiledevops/flutter-sdk-image:3.44.4
 
 before_install:
   - docker pull $DOCKER_IMAGE
@@ -120,7 +121,7 @@ Example:
 
 ```
 # .gitlab-ci.yml
-image: mobiledevops/flutter-sdk-image:3.19.4
+image: mobiledevops/flutter-sdk-image:3.44.4
 
 stages:
     - build
