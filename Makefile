@@ -1,18 +1,14 @@
 IMAGE_TAG := $(IMAGE_TAG)
 IMAGE := mobiledevops/flutter-sdk-image
 
-release: \
-	tag_image \
-	dockerhub_push
-
-tag_image: build
-	docker tag $(IMAGE):latest $(IMAGE):$(IMAGE_TAG)
+release:
+	docker buildx build --platform linux/amd64 \
+		-t $(IMAGE):latest -t $(IMAGE):$(IMAGE_TAG) --push .
 
 build:
 	docker build -t $(IMAGE) .
 
-dockerhub_push:	
-	docker push $(IMAGE):latest \
-	&& docker push "$(IMAGE):$(IMAGE_TAG)"
+run:
+	docker run -it --rm $(IMAGE) /bin/bash
 
-.PHONY: release tag_image build dockerhub_push
+.PHONY: release build run
