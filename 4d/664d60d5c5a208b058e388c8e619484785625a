@@ -1,0 +1,30 @@
+Makefile
+  s_f3576367777a23::t_a038693125ab8d 4,6,11-12,14
+  s_f3576367777a23::t_8183d73bd0f059 5
+.github/workflows/pull-request.yaml
+  s_f3576367777a23::t_bb2e523d5f3b84 13,15
+.github/workflows/release.yaml
+  s_f3576367777a23::t_c64b46b2db2297 16,18
+.github/workflows/staging.yaml
+  s_f3576367777a23::t_eddcb99fcb6c36 13,15
+Dockerfile
+  s_f3576367777a23::t_dcd83784b58454 1,3-5,14-16
+README.md
+  s_f3576367777a23::t_98dd247d4672ff 9,15,75,102,124
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "4d664d60d5c5a208b058e388c8e619484785625a",
+  "prompts": {},
+  "sessions": {
+    "s_f3576367777a23": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "22c34905-61af-492f-9eab-3e70aca52dea",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Sebastian Messingfeld <sebastian@messeb.com>"
+    }
+  }
+}
